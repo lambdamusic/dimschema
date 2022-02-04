@@ -4,10 +4,16 @@ CLI to retrieve SQL schema information about the [Dimensions on Google BigQuery]
 
 **NOTE** This is the same documentation available from https://docs.dimensions.ai/bigquery/data-sources.html - only it's retrieving from the BigQuery database itself. 
 
+## Install 
+
+```
+pip install dimschema
+```
+
 
 ## Requirements 
 
-* Python 
+* Python 3+
 * Personal Google account credentials set up in your local machine. The [BigQueryLAB](https://bigquery-lab.dimensions.ai/tutorials/01-connection/#option-2-using-a-local-jupyter-and-your-personal-credentials) has a tutorial showing how to do that. 
 
 ## Examples
@@ -28,3 +34,6 @@ $ pip install --editable .
 
 See https://stackoverflow.com/questions/30306099/pip-install-editable-vs-python-setup-py-develop
 
+## Status
+
+Working prototype / unsupported
